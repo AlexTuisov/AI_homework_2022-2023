@@ -4,7 +4,7 @@ import logging
 
 class Simulator:
     def __init__(self, initial_state):
-        self.state = deepcopy(self.initial_state)
+        self.state = deepcopy(initial_state)
         self.score = [0, 0]
         self.dimensions = (len(self.state['map']), len(self.state['map'][0]))
 
