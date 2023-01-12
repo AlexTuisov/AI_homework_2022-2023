@@ -148,4 +148,6 @@ class Simulator:
     def print_state(self):
         print(f"State: {self.state}")
 
+    def set_state(self, state):
+        self.state = state
 
